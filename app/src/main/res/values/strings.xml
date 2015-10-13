@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Sunshine</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="refresh">Refresh</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">Campinas</string>
+    <string name="pref_units_label">Unidade de Temperatura</string>
+    <string name="pref_units_label_metric">Metrica</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key">units</string>
+    <string name="pref_units_metric">metric</string>
+    <string name="pref_units_imperial">imperial</string>
+    <string name="action_map">Localização no mapa</string>
+    <string name="action_share">Share</string>
+    <string name="today">Hoje </string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <string name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="sync_account_type">sunshine.example.com</string>
+    <string name="content_authority">com.example.android.sunshine.app</string>
+    <string name="format_notification">Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g></string>
+    <string name="pref_last_notification">last_notification</string>
+
+    <string name="pref_enable_notifications_key">Habilitar Notificações</string>
+    <string name="pref_enable_notifications_label">Notificação de clima</string>
+
+    <string name="pref_enable_notifications_true">Habilitar</string>
+    <string name="pref_enable_notifications_false">Desabilitar</string>
+    <string name="pref_enable_notifications_default">true</string>
+</resources>
